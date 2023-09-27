@@ -19,6 +19,7 @@ The `gridsearch_visual` class streamlines the process of hyperparameter tuning b
 - **Metric Customization**: Allows customization of evaluation metrics.
 - **Task Compatibility**: Works with classification and regression class objects in scikit-learn, xgboost, and even pytorch(as long as it is a class)
 
+
 ### Features to come:
 
 - Support Grid Search, random search, and bayesian search
@@ -40,3 +41,17 @@ Not yet officially deployed
 
 
 
+
+## Demo
+
+Here's a basic example of how to use the gridsearch_visual class:
+
+
+
+
+
+
+## Acknowledgements
+
+- This project is inspired by this post by Daniel J. Toth(https://towardsdatascience.com/binary-classification-xgboost-hyperparameter-tuning-scenarios-by-non-exhaustive-grid-search-and-c261f4ce098d)
+- Also by tired of figuring out hyperparameters when training an xgboost tree
