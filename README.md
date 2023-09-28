@@ -58,7 +58,7 @@ iris = load_iris()
 X = iris.data
 y = iris.target
 param_grid = {'n_estimators': [10, 20, 30, 40, 50], 'max_depth': [5, 10, 15, 20, 25]}
-clf_base = RandomForestClassifier(random_state=9)
+clf_base = RandomForestClassifier(random_state=9)  #test_size=0.2, random_state=9, cv = 4, best_param_metric = "accuracy" as default parameters
 demo_iris = gridsearch_visual(clf_base, X, y, param_grid)
 ```
 
