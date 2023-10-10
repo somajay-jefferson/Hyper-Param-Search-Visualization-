@@ -1,6 +1,13 @@
 # Hyper Param Search Visualization 
  Visualization of Hyperparameter Tuning via OOP paradigm
 
+## Files
+
+**Grid_Search_Visual.py:** the py file containing the `gridsearch_visual` class 
+
+**Gridsearch.ipynb:** scratch work for `gridsearch_visual`, contains some test code and work in progress code
+
+**test_gridsearch_visual.py:** unit test for `Grid_Search_Visual.py`
 
 
 # gridsearch_visual
@@ -24,6 +31,7 @@ The `gridsearch_visual` class streamlines the process of hyperparameter tuning b
 
 - Support Grid Search, random search, and bayesian search
 - Support not only classification but also regression models
+- Computes feature importance
 - In addition to visualization of hyperparameters, also include AUC for threshold selection in visualization process(final stage)
 - Multi-dimension visualization 
 
