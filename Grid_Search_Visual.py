@@ -190,8 +190,8 @@ class gridsearch_visual():
                 x = np.arange(len(data_range))
 
 
-                ax[row, 0].plot(x, y1, label='train scores', color='blue')
-                ax[row, 0].plot(x, y2, label='test scores', color='red')
+                ax[row, 0].plot(x, y1, label='Train scores', color='blue')
+                ax[row, 0].plot(x, y2, label='Validation scores', color='red')
                 ax[row, 0].set_title(f'Iteration #{row+1} metric')
 
 
